@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // Adjusted import path for the video
-import heroVideo from "../assets/hero video/WhatsApp Video 2026-06-09 at 11.12.25 AM.mp4";
+import heroVideo from "myvideo.mp4";
 const Hero = () => {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
